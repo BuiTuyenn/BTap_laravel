@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="../../css/login_staff.css">
+</head>
+<body>
+    <div class="login-container">
+        <header>
+            <div class="header-left">
+                <img src="../../images/Logo 1.png" alt="logo">
+                <div></div>
+                <p>Hệ thống quản lý ca làm việc nhân viên nhà hàng</p>
+            </div>
+            <div class="header-right">
+                <div class="admin-session">
+                    <p>Phiên dành cho quản lý nhà hàng</p>     
+                    <img src="../../images/management-icon 1.png" alt="">
+
+                </div>
+            </div>
+            </div>
+        </header>
+        
+        <div class="login-form">
+            <h2>Đăng Nhập</h2>
+            <form action="login.php" method="post">
+                <label for="username">Tên đăng nhập:s</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Mật khẩu:</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <div class="icon-eye">
+                        <img src="../../images/hidepass 1.png" alt="">
+                    </div>
+                </div>
+
+                <button type="submit" class="login-button">ĐĂNG NHẬP</button>
+            </form>
+        </div>
+        
+        <footer>
+            <p>© 2024 - Bản quyền thuộc về Nhóm 4 - DH12C1</p>
+        </footer>
+    </div>
+</body>
+</html>

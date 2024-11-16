@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #0b0b0b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    max-width: 160px;
+}
+
+header div {
+    background-color: #fff;
+    width: 2px;
+    height: 62px;
+    border-radius: 2px;
+}
+
+header p {
+    font-size: 20px;
+    color: #fff;
+    flex: 1;
+    margin: 0;
+    line-height: 38px;
+    padding: 0px 440px 0 6px;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    text-align: center;
+    color: #207335;
+    margin-bottom: 40px;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+    color: #207335;
+    margin: 20px;
+}
+.form h1{
+    margin: 20px;
+    font-size: 30px;
+}
+.form p{
+    margin: 20px;
+    font-size: 20px;
+}
+.back-btn {
+    position: absolute; /* Hoặc position: fixed nếu muốn nút luôn hiển thị khi cuộn trang */
+    top: 100px; /* Khoảng cách từ đỉnh của trang */
+    right: 20px; /* Khoảng cách từ bên phải của trang */
+    display: flex;
+    align-items: center; /* Căn giữa icon và văn bản theo chiều dọc */
+    background-color: #207335;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Đảm bảo nút luôn nằm trên các thành phần khác */
+}
+
+.back-btn img {
+    width: 20px; /* Kích thước ảnh phù hợp */
+    height: 20px;
+    margin-right: 8px; /* Khoảng cách giữa ảnh và văn bản */
+}
+.export-btn{
+    margin-left: 670px;
+    color: #fff;
+    background-color: #207335;
+    width: 140px; /* Kích thước ảnh phù hợp */
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none
+}
+
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.68);
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer p {
+    color: #fff;
+    margin: 8px;
+}

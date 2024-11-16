@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Tài Khoản Mới</title>
+    <link rel="stylesheet" href="../../css/add_acc.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../../images/Logo 1.png" alt="logo">
+            <div></div>
+            <p>Phiên dành cho quản trị viên</p>
+        </header>
+
+        <main>
+            <h2>THÊM TÀI KHOẢN MỚI</h2>
+            <button class="back-btn">
+                <img src="../../images/return icon 1.png" alt="">
+                quay lại
+            </button>
+            <form class="form">
+                <label for="tenNhanVien">Tên nhân viên:</label>
+                <input type="text" id="tenNhanVien" name="tenNhanVien">
+
+                <label for="tenTaiKhoan">Tên tài khoản:</label>
+                <input type="text" id="tenTaiKhoan" name="tenTaiKhoan">
+
+                <label for="chucVu">Chức vụ:</label>
+                <select id="chucVu" name="chucVu">
+                    <option value="manager">Quản lý</option>
+                    <option value="staff">Nhân viên</option>
+                </select>
+
+                <label for="matKhau">Mật khẩu:</label>
+                <input type="password" id="matKhau" name="matKhau">
+
+                <label for="xacNhanMatKhau">Xác nhận lại mật khẩu:</label>
+                <input type="password" id="xacNhanMatKhau" name="xacNhanMatKhau">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="sdt">SĐT:</label>
+                <input type="text" id="sdt" name="sdt">
+
+                <button type="submit" class="add-btn">Thêm</button>
+            </form>
+        </main>
+
+        <footer>
+            <p>© 2024 - Bản quyền thuộc về Nhóm 4 - DH12C1</p>
+        </footer>
+    </div>
+</body>
+</html>
