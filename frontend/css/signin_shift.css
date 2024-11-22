@@ -12,7 +12,7 @@ body {
     color: #0b0b0b;
 }
 
-.container {    
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,62 +20,70 @@ body {
 }
 
 header {
+    margin: 0;
     background: rgba(0, 0, 0, 0.68);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-left {
+    width: 52%;
+    display: flex;
+    align-items: center;
     padding: 10px 20px;
 }
 
-header img {
+.header-left img {
     max-width: 160px;
 }
 
-header div {
+.header-left div {
     background-color: #fff;
     width: 2px;
     height: 62px;
     border-radius: 2px;
+    margin: 6px;
 }
 
-header p {
+.header-left p {
     font-size: 20px;
     color: #fff;
     flex: 1;
     margin: 0;
-    line-height: 38px;
-    padding: 0px 440px 0 6px;
 }
-
 main {
+    font-weight: bold;
     color: #207335;
-    height: 100%;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     background-color: #ffffff;
-    padding: 30px;
+    border-radius: 10px;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-main .system-check {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+main h1{
     text-align: center;
+    color: #207335;
+    margin-top: 20px;
 }
-.system-check h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.text, .signin{
+    display: flex;
+    justify-content: center;
 }
-.system-check img {
-    width: 250px; /* Kích thước ảnh */
-    margin: 20px 0;
+.text{
+    padding: 4px 266px 10px 0;
+    margin-top: 100px;
+    
 }
-
-.system-check h1 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    max-width: 600px; /* Giới hạn chiều rộng */
+.signin input{
+    border: 1px solid #606060;
+    width: 432px;
+    height: 46px;
+    border-radius: 4px;
 }
 .button-container{
     display: flex;
@@ -84,17 +92,24 @@ main .system-check {
     gap: 20px;
     margin-top: 80px;
 }
-.button-container .green {
-    font-size: 16px;
+.button-container .signin-btn {
     color: #fff;
     background-color: #207335;
-    width: 270px;
+    width: 140px;
     height: 40px;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
     border: none;
 }
 
+.button-container .cancel {
+    color: #207335;
+    border: 2px solid #207335;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
 footer {
     width: 100%;
     height: 30px;

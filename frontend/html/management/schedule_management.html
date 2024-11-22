@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý ca làm việc</title>
+    <link rel="stylesheet" href="../../css/schedule_management.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <img src="../../images/Logo 1.png" alt="logo">
+                <div></div>
+                <p>Phiên dành cho quản lý nhân viên</p>
+            </div>
+            <div class="header-right">
+                <div class="schedule">
+                    <button>Quản lý lịch làm việc của nhân viên</button>
+                    <p>Quản lý ca làm</p>     
+                </div>
+        </header>
+
+        <main>
+            <h2>Quản lý lịch làm việc của các nhân viên</h2>
+            <button class="back-btn">
+                <img src="../../images/return icon 1.png" alt="">
+                quay lại
+            </button>
+            <div class="period">
+                <b><p>Bộ lọc: </p></b>
+                <p>Khoảng thời gian: </p>
+                <div class="filter-section">
+                    <input type="date" id="start-date">
+                    <span> - </span>
+                    <input type="date" id="end-date">
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button class="btn add"><img src="../../images/plus icon 2.png" alt=""> Thêm</button>
+                <button class="btn delete"><img src="../../images/delete icon 1.png" alt=""> Xóa</button>
+            </div>
+            <table class="schedule-table">
+                <thead>
+                  <tr>
+                    <th>STT</th>
+                    <th>Mã Ca</th>
+                    <th>Mã NV</th>
+                    <th>Họ và tên</th>
+                    <th>Thời gian bắt đầu</th>
+                    <th>Thời gian kết thúc</th>
+                  </tr>
+                </thead>
+            </table>    
+        </main>
+
+        <footer>
+            <p>© 2024 - Bản quyền thuộc về Nhóm 4 - DH12C1</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    color: #0b0b0b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header-left {
+    width: 52%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left img {
+    max-width: 160px;
+}
+
+.header-left div {
+    background-color: #fff;
+    width: 2px;
+    height: 62px;
+    border-radius: 2px;
+    margin: 6px;
+}
+
+.header-left p {
+    font-size: 20px;
+    color: #fff;
+    flex: 1;
+    margin: 0;
+}
+
+
+.schedule {
+    display: flex;
+    align-items: center;
+    line-height: 94px;
+    padding: 0 10px;
+}
+
+.schedule button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #207335;
+    border: none;
+    width: 260px;
+    height: 26px;
+    border-radius: 4px;
+    
+}
+.schedule p{
+    font-size: 16px;
+    color: #fff;
+    margin: 0 30px;
+}
+
+.back-btn {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #207335;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.back-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #207335;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.search{
+    width: 240px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #207335;
+    margin: 0px 126px;
+}
+.search input{
+    background: rgba(163, 255, 186, 0.15);
+    padding: 0 4px;
+    color: #207335;
+    width: 238px;
+    height:34px;
+    border: none;
+    
+}
+.period{
+    line-height: 44px;
+    display: flex;
+    margin: 6px;
+    justify-content: center
+}
+/* Filter Section */
+.filter-section {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+  
+.filter-section input[type="date"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+.classify{
+    text-align: center;
+
+}
+.classify label {
+    margin-right: 10px;
+}
+.report-btn{
+    background-color: #207335;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 8px 16px;
+    border: none;
+}
+.filter-btn {
+    padding: 8px 16px;
+    border: none;
+    border: 1px solid #207335;
+    background: rgba(163, 255, 186, 0.15);
+    color:#207335;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+  
+  /* Buttons */
+.action-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+  
+.btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+  
+
+.btn.add {
+    background: #207335;
+    color: white;
+}
+
+.btn.delete {
+    background: rgba(255, 0, 0, 0.78);
+    color: white;
+}
+.btn.delete img, .btn.add img {
+    width: 12px;
+
+}
+  
+  /* Table */
+.schedule-table {
+    color: #207335;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+  
+.schedule-table th {
+    border: 1px solid #207335;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.68);
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer p {
+    color: #fff;
+    margin: 8px;
+}
